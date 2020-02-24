@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75503" started-at="2018-12-04T12:05:16Z" finished-at="2018-12-04T12:06:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16175" started-at="2018-12-04T12:05:16Z" finished-at="2018-12-04T12:05:32Z">
+      <class name="Academy.LandingPageTitleValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Academy.LandingPageTitleValidation@3ba9ad43]" name="setup" is-config="true" duration-ms="3186" started-at="2018-12-04T12:05:16Z" finished-at="2018-12-04T12:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="titleTest()[pri:0, instance:Academy.LandingPageTitleValidation@3ba9ad43]" name="titleTest" duration-ms="10166" started-at="2018-12-04T12:05:19Z" finished-at="2018-12-04T12:05:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSESs] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSESs] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Academy.LandingPageTitleValidation.titleTest(LandingPageTitleValidation.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.LandingPageTitleValidation@3ba9ad43]" name="tearDown" is-config="true" duration-ms="2312" started-at="2018-12-04T12:05:29Z" finished-at="2018-12-04T12:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.LandingPageTitleValidation -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="12544" started-at="2018-12-04T12:05:32Z" finished-at="2018-12-04T12:05:44Z">
+      <class name="Academy.LandingPageNavBarValidation">
+        <test-method status="PASS" signature="navTest()[pri:0, instance:Academy.LandingPageNavBarValidation@9353778]" name="navTest" duration-ms="12414" started-at="2018-12-04T12:05:32Z" finished-at="2018-12-04T12:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.LandingPageNavBarValidation@9353778]" name="tearDown" is-config="true" duration-ms="127" started-at="2018-12-04T12:05:44Z" finished-at="2018-12-04T12:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.LandingPageNavBarValidation -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="46737" started-at="2018-12-04T12:05:44Z" finished-at="2018-12-04T12:06:31Z">
+      <class name="Academy.HomePageTest">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageTest@1ddf84b8]" name="basePageNavigation" duration-ms="23186" started-at="2018-12-04T12:05:44Z" data-provider="getData" finished-at="2018-12-04T12:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nbisht30@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[riders123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[something]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageTest@1ddf84b8]" name="basePageNavigation" duration-ms="23265" started-at="2018-12-04T12:06:07Z" data-provider="getData" finished-at="2018-12-04T12:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nbisht30@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[riders123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[something]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePageTest@1ddf84b8]" name="tearDown" is-config="true" duration-ms="278" started-at="2018-12-04T12:06:31Z" finished-at="2018-12-04T12:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePageTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
